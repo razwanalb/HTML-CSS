@@ -1,28 +1,28 @@
-<h1>HTML Basics</h1>
+```
+Explanation:
+=============================================
 
-<h2>Details part : </h2> 
+<!DOCTYPE html> → Declares this is an HTML5 document.
 
- Explanation:
+<html> ... </html> → Root element of the page.
 
-<p> <!DOCTYPE html> → Declares this is an HTML5 document. <p>
+<head> ... </head> → Contains page metadata (title, styles, etc.).
 
-<p> <html> ... </html> → Root element of the page. <p>
+<title> → Title shown in browser tab.
 
-<p> <head> ... </head> → Contains page metadata (title, styles, etc.). <p>
+<body> ... </body> → Main visible content of the page.
 
-<p> <title> → Title shown in browser tab.<p>
+<h1> → Heading.
 
-<p> <body> ... </body> → Main visible content of the page. <p>
+<p> → Paragraph.
 
-<p> <h1> → Heading. <p>
-
-<p> <p> → Paragraph.<p> 
 
  HTML Tags
+===========================================
 
 Headings: <h1> to <h6>
 
-Paragraph: 
+Paragraph: <p>
 
 Link: <a href="https://example.com">Visit</a>
 
@@ -33,4 +33,4 @@ List:
 Ordered list → <ol><li>Item</li></ol>
 
 Unordered list → <ul><li>Item</li></ul>
-</p>
+```
