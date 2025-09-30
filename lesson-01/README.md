@@ -1,28 +1,28 @@
 <h1>HTML Basics</h1>
 
 <h2>Details part : </h2> 
-<p>
+
  Explanation:
 
-<!DOCTYPE html> → Declares this is an HTML5 document.
+<p> <!DOCTYPE html> → Declares this is an HTML5 document. <p>
 
-<html> ... </html> → Root element of the page.
+<p> <html> ... </html> → Root element of the page. <p>
 
-<head> ... </head> → Contains page metadata (title, styles, etc.).
+<p> <head> ... </head> → Contains page metadata (title, styles, etc.). <p>
 
-<title> → Title shown in browser tab.
+<p> <title> → Title shown in browser tab.<p>
 
-<body> ... </body> → Main visible content of the page.
+<p> <body> ... </body> → Main visible content of the page. <p>
 
-<h1> → Heading.
+<p> <h1> → Heading. <p>
 
-<p> → Paragraph.
+<p> <p> → Paragraph.<p> 
 
  HTML Tags
 
 Headings: <h1> to <h6>
 
-Paragraph: <p>
+Paragraph: 
 
 Link: <a href="https://example.com">Visit</a>
 
