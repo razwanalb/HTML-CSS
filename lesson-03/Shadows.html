@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadows</title>
+    <style>
+        .subscribe-button {
+            background-color: #FF0000;
+            color: white;
+            height: 36px;
+            width: 120px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 12px;
+            transition: opacity 0.15s;
+            box-shadow: 6px 10px  15px rgb(38, 187, 224);
+        }
+        .subscribe-button:hover:active {
+            background-color:  #520404;
+        }
+        .subscribe-button:hover {
+            background-color:  #CC0000;
+            opacity: 0.8;
+        }
+
+        .update-subscribe-button {
+            background-color: #000000;
+            color: white;
+            height: 36px;
+            width: 110px;
+            border: none;
+            border-radius: 20px;
+            margin-right: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: opacity 1s;
+            transition: background-color 0.20s;
+            box-shadow: 8px 10px 15px rgb(118, 238, 118);
+        }
+         .update-subscribe-button:hover {
+            background-color: #222222;
+         }
+         .update-subscribe-button:hover:active {
+            opacity: 0.7;
+         }
+
+        .join-button {
+            background-color: white;
+            color: rgb(41,118,211);
+            border-color: rgb(41,118,211);
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 2px;
+            margin-right: 5px;
+            height: 36px;
+            width: 90px;
+            cursor: pointer;
+            margin-left: 8px;
+            transition: background-color 1s,color 1s;
+            box-shadow: 6px 9px 12px red ;
+
+        } 
+        .join-button:hover {
+            background-color: rgb(41,118,211);
+            color: white;
+            opacity: 0.9;
+        }
+        .join-button:hover:active{
+            /*background: rgb(0, 0, 0);*/
+            opacity: 0.5;
+        }
+        .tweet-button {
+            background-color: rgb(2, 137, 255);
+            color: white;
+            border:none;
+            border-radius: 20px;
+            font-weight: bold;
+            height: 36px;
+            width: 90px;
+            cursor: pointer;
+            margin-left: 8px;
+            transition: background-color 1s;
+            box-shadow: 10px 9px 15px black;
+        }
+        .tweet-button:hover {
+            background-color: #55ACEE;
+            color: white;
+        }
+        .tweet-button:hover:active {
+            opacity: 0.7;
+        }
+        .More-Realstic-button {
+            background-color: rgb(185, 43, 228);
+            color: white;
+            border:none;
+            border-radius: 20px;
+            font-weight: bold;
+            height: 36px;
+            width: 180px;
+            cursor: pointer;
+            margin-left: 12px;
+            transition: background-color 1s;
+            box-shadow: 10px 9px 15px rgba(0, 0, 0, 0.7);
+
+        }
+        .More-Realstic-button:hover {
+            background-color: #55ACEE;
+            color: rgb(255, 255, 255);
+        }
+        .More-Realstic-button:hover:active {
+            opacity: 0.7;
+           
+        }
+        .afterHover{
+            background-color: rgb(185, 43, 228);
+            color: white;
+            border:none;
+            border-radius: 20px;
+            font-weight: bold;
+            height: 36px;
+            width: 180px;
+            cursor: pointer;
+            margin-left: 12px;
+            transition: background-color 1s,box-shadow 0.20s;
+           
+        }
+            .afterHover:hover {
+            background-color: #55ACEE;
+            color: rgb(255, 255, 255);
+            box-shadow: 10px 9px 15px rgba(0, 0, 0, 0.7);
+        }
+        .afterHover:active {
+            opacity: 0.7;
+        }
+  
+
+    </style>
+</head>
+<body>
+    <button class="subscribe-button">
+        SUBSCIBE
+    </button>
+    <button class="update-subscribe-button">
+        Subscribe
+    </button>
+
+    <button class="join-button">
+        JOIN
+    </button>
+    <button class="tweet-button">
+        Tweet
+    </button>
+
+    <button class="More-Realstic-button">
+        More Realstic shadows
+    </button>
+  
+    <button class="afterHover">
+        before Hover
+    </button>
+</body>
+</html>
