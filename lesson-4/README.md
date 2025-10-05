@@ -28,7 +28,7 @@ This simple webpage includes:
 
 ## 📂 File Structure
 
-Challenge-Exercises/
+Challenge-Exercises/ <br>
 │
-├── index.html # Main HTML file
+├── index.html # Main HTML file <br>
 └── README.md # Documentation file
