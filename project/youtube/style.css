@@ -1,0 +1,70 @@
+/*.side-bar{
+    display: inline-block;
+    width: 15px;
+    height: 200px;
+}*/
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    color: #0f0f0f; /* YouTube default text color */
+}
+
+.search-bar{
+    display: block;
+    margin-bottom: 8px;
+    padding-bottom: 0;
+}
+
+.div-class{
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+.text-details{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.thumbnail-1{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.profile-image{
+    width: 36px;
+    height: 36px;
+    margin-top: 0px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+    vertical-align: middle;
+    /*
+    border-radius: 36px;
+    vertical-align: middle;
+    object-fit: cover;
+    object-position: center;*/
+}
+.title-text{
+   /* width: 290px;
+    vertical-align: middle;*/
+    
+    width: 250px;
+    line-height: 20px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 14px;
+    
+    
+}
+.profile-name,
+.video-status {
+    margin: 2px 0 0 0;
+    color: gray;
+    font-size: 13px;
+}
+.details-text{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
